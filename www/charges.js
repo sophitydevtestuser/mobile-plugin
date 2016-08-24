@@ -1,6 +1,6 @@
 var exec = require('cordova/exec');
 var channel = require('cordova/channel');
-
+another agm change
 function Charges(){
   this.processRequest = function(args, cb, error){
       exec(cb,error, "Stripe", "process", args);
